@@ -8,16 +8,9 @@ I'm lazy to do the fcking ropots and they take forever
 
 ```
 pip install selenium
+pip install webdriver-manager
 git clone https://github.com/undy45/ONLINE_A-ez-pass.git
 ```
-
-To use this bot you need to have a Chrome webdriver corresponding to your version of Chrome (Yes you can only use Chrome sorry).
-You can find out your version of Chrome by going to ... (in top right) -> Help -> About Google Chrome
-
-After that you can download the correct version of driver from:
-[Link](https://sites.google.com/chromium.org/driver/)
-
-Extract file somewhere on you system and add path to the driver to the config.py file (leave the r before the string) as well with your UCO and primary password
 
 # How to use?
 After Installation you can just run the program.
