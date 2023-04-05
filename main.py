@@ -83,7 +83,7 @@ class EasyPass:
             self.driver.quit()
 
     def get_test_link(self, test):
-        element = self.find(By.XPATH, f".//tr[td/a[contains(text(), '{test}')]]")
+        element = self.find(By.XPATH, f".//tr[td/a[text()='{test}']]")
         try:
             points = element.find_element(By.XPATH, "td/div/div/span[@class='pozn_blok']")
             if points.text != "*0":
