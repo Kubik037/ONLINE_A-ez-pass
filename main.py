@@ -22,7 +22,7 @@ def get_list_of_tests_from_file(start=0):
 
 class EasyPass:
     def __init__(self):
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+        self.driver = webdriver.Chrome(service=Service(), options=webdriver.ChromeOptions())
         self.login()
         self.tests_to_do = get_list_of_tests_from_file(config.start)
         self.list_of_tests_url = self.get_list_of_test_url()
